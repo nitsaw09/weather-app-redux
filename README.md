@@ -18,7 +18,7 @@ Weather APP to show the weather of US cities (i.e New York, New Jersey, Californ
 
 http://weatherstack.com API is used for getting weather details
 
-API - http://api.weatherstack.com/current?access_key=ACCESS_KEY&query=city
+API - http://api.weatherstack.com/current?access_key=ACCESS_KEY&query=CITY
 
 ## License
 Copyright (c) 2020 Nitesh Ghuge \
