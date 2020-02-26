@@ -10,9 +10,10 @@ Weather APP to show the weather of US cities (i.e New York, New Jersey, Californ
 
 ## Usage
 
-1. To run client ```npm run client```
-2. To run Server ```npm run server```
-3. To run client and server concurrently ```npm run dev```
+1. Download or Clone the project. 
+2. To run client ```npm run client```
+3. To run Server ```npm run server```
+4. To run client and server concurrently ```npm run dev```
 
 ## Weather API
 
