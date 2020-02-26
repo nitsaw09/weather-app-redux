@@ -44,7 +44,7 @@ class Main extends Component<Props, State> {
     return (
       <div className="row d-flex justify-content-center">
         <div className="h1 text-white mb-3">Weather App</div>
-        <div className="input-group mb-3 d-flex justify-content-center">
+        <div className="input-group col-12 mb-3 d-flex justify-content-center">
           <select
             className="form-control col-md-4"
             onChange={this.changeHandler.bind(this)}
@@ -82,24 +82,30 @@ class Main extends Component<Props, State> {
             </div>
             <div className="row mt-4 d-flex justify-content-center text-white">
               <div className="col-md-2 col-xs-12">
-                <div className="h5">Celsius</div>
-                <div className="divider"></div>
-                <div className="mt-3 mb-4 h4">
-                  {this.props.apiResponse[1]} °C
+                <div className="bg-cadetblue p-1 mb-3">
+                  <div className="h5">Celsius</div>
+                  <div className="divider"></div>
+                  <div className="mt-3 mb-4 h4">
+                    {this.props.apiResponse[1]} °C
+                  </div>
                 </div>
               </div>
               <div className="col-md-2 col-xs-12">
-                <div className="h5">Fahrenheit</div>
-                <div className="divider"></div>
-                <div className="mt-3 mb-4 h4">
-                  {this.props.apiResponse[11]} °F
+                <div className="bg-cadetblue p-1 mb-3">
+                  <div className="h5">Fahrenheit</div>
+                  <div className="divider"></div>
+                  <div className="mt-3 mb-4 h4">
+                    {this.props.apiResponse[11]} °F
+                  </div>
                 </div>
               </div>
               <div className="col-md-2 col-xs-12">
-                <div className="h5">Humidity</div>
-                <div className="divider"></div>
-                <div className="mt-3 mb-4 h4">
-                  {this.props.apiResponse[9]} %
+                <div className="bg-cadetblue p-1 mb-3">
+                  <div className="h5">Humidity</div>
+                  <div className="divider"></div>
+                  <div className="mt-3 mb-4 h4">
+                    {this.props.apiResponse[9]} %
+                  </div>
                 </div>
               </div>
             </div>

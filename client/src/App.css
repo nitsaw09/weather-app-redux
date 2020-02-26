@@ -10,6 +10,10 @@ body {
   color: white;
 }
 
+.bg-cadetblue {
+  background-color: cadetblue;
+}
+
 .divider {
   border-bottom: 1px solid orange;
 }
