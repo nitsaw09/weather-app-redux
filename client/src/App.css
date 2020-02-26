@@ -1,0 +1,15 @@
+body {
+  background-color: black !important;
+}
+
+.cloud-img {
+  width: 200px;
+}
+
+.text-white {
+  color: white;
+}
+
+.divider {
+  border-bottom: 1px solid orange;
+}
