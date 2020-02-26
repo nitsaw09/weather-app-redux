@@ -4,8 +4,8 @@ Weather APP to show the weather of US cities (i.e New York, New Jersey, Californ
 
 ## Installation
 
-1. For client side go to client folder and run in terminal ```npm install```
-2. For server side run ```npm install``` in the root of the project folder.
+1. For client go to client folder and run in terminal ```npm install```
+2. For server run ```npm install``` in the root of the project folder.
 
 
 ## Usage
