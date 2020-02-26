@@ -42,8 +42,8 @@ class Main extends Component<Props, State> {
 
   render() {
     return (
-      <div className="row d-flex justify-content-center">
-        <div className="h1 text-white mb-3">Weather App</div>
+      <div className="row text-white d-flex justify-content-center">
+        <div className="h1 mb-3">Weather App</div>
         <div className="input-group col-12 mb-3 d-flex justify-content-center">
           <select
             className="form-control col-md-4"
@@ -66,7 +66,7 @@ class Main extends Component<Props, State> {
         <div className="container text-center mt-3">
           <div>
             <div className="col-12">
-              <p className="h3 text-white">
+              <p className="h3">
                 {this.props.apiLocation[0]}, {this.props.apiLocation[1]}
               </p>
               <img
@@ -74,13 +74,13 @@ class Main extends Component<Props, State> {
                 src={this.props.apiResponse[3]}
                 alt="cloud-img"
               ></img>
-              <p className="mt-2 text-white h5">{this.props.apiResponse[4]}</p>
-              <p className="text-white h6">
+              <p className="mt-2 h5">{this.props.apiResponse[4]}</p>
+              <p className="h6">
                 {this.props.apiResponse[14] === "yes" ? "Day" : "Night"}{" "}
                 {this.props.apiResponse[0]}
               </p>
             </div>
-            <div className="row mt-4 d-flex justify-content-center text-white">
+            <div className="row mt-4 d-flex justify-content-center">
               <div className="col-md-2 col-xs-12">
                 <div className="bg-cadetblue p-1 mb-3">
                   <div className="h5">Celsius</div>
