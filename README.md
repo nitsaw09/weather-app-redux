@@ -14,6 +14,8 @@ Weather APP to show the weather of US cities (i.e New York, New Jersey, Californ
 2. To run client ```npm run client```
 3. To run Server ```npm run server```
 4. To run client and server concurrently ```npm run dev```
+5. Go to browser ```http://localhost:3000``` to view the app.
+6. Select the city from list and click weather button to view the weather data.
 
 ## Weather API
 
