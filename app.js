@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const path = require("path");
 
 const app = express();
 
@@ -18,6 +19,13 @@ app.use((req, res, next) => {
 
 const weatherRoutes = require("./api/routes/weather");
 app.use("/weather", weatherRoutes);
+
+/*Adds the react production build to serve react requests*/
+app.use(express.static(path.join(__dirname, "/client/build")));
+/*React root*/
+app.get("/", (req, res) => {
+res.sendFile(path.join(__dirname + "/client/build/index.html"));
+});
 
 // handling 404 error
 app.use((req, res, next) => {
